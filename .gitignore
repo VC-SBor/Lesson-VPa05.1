@@ -1,0 +1,50 @@
+# Виртуальные окружения Python
+venv/
+.venv/
+env/
+ENV/
+
+# Кэш и скомпилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Сборка и распространение пакетов
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Файлы базы данных SQLite3 приложения
+*.db
+*.sqlite
+*.sqlite3
+reminders.db
+reminders.db-journal
+reminders.db-wal
+reminders.db-shm
+
+# Файлы окружения и секреты
+.env
+.env.*
+*.env
+
+# Настройки IDE и редакторов
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Артефакты инструментов тестирования и покрытия
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Служебные файлы ОС
+Thumbs.db
+Desktop.ini
+.DS_Store
